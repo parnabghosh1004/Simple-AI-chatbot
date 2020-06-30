@@ -1,0 +1,7 @@
+tensorflow version = 2.2.0 - deep learning library
+nltk - nlp toolkit
+tkinter - for gui
+pickle - for saving the model
+numpy
+random
+json
