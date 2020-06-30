@@ -1,0 +1,66 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+          "context": [""]
+        },
+        {"tag": "identity",
+            "patterns": ["Tell me your name", "Who are you?", "Tell me about yourself", "Can you please brief yourself","What is your name?","Who created you?"],
+            "responses": ["I am Mark", "I am worker at Sizzling Restuarant", "My name is Mark","Myself Mark AI","I am Mark from Sizzling Resturant"],
+            "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you for your suuport", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure","Thank you for shopping with us","Hope you liked our service","Please visit again!"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand","Unable to understand what you say","Please say that again"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["You can book a table for yourself today, I can tell you about the today's best menu","I can tell you about the sevices offered by our restuarant"],
+         "context": [""]
+        },
+        {"tag": "services",
+          "patterns": ["What are the services available?", "Ok, let me know about services", " Could you specify what servies are your restuarant providing?"],
+          "responses": ["We are providing special discounts for home deliveries during this this covid-19 pandemic","You can get special offers for home delivery of food","Now Tables can be booked through phone calls and we are also accepting online payments"]
+         },
+        {"tag": "hours",
+          "patterns": ["What hours are you open?", "What is the time of your restuarant opening and closing", "When are your restuarant open?" ],
+          "responses": ["We're open every day 9am-9pm", "Our hours are 9am-9pm every day"]
+         },
+         {"tag": "payments",
+          "patterns": ["Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?" ],
+          "responses": ["We accept VISA, Mastercard and AMEX", "We accept most major credit cards"]
+         },
+         {"tag": "opentoday",
+          "patterns": ["Are you open today?", "When do you open today?", "What are your hours today?"],
+          "responses": ["Yes we are open today , tell me how can i help you?","We're open every day from 9am-9pm", "Our hours are 9am-9pm every day"]
+         },
+         {"tag": "book",
+          "patterns": ["Please book a table for me and for my family", "", "What are your hours today?"],
+          "responses": ["Ok,sure but for which day and timings?","Ok, Please specify the date and the timing of the book."]
+         },
+         {"tag": "menu",
+          "patterns": ["What is menu today?","What can I get today?","What foods are available today"],
+          "responses": ["Today we have a special noon meal at a low cost, also snacks are available, chinese and continental are also available and north indian and south indian foods are also available"]
+         },
+         {"tag": "hd",
+          "patterns": ["Please book for me for home delivery","Could you book this for me for home delivery"],
+          "responses": ["Ok, proceeding to payments ,Please specify the payment method"]
+         },
+         {"tag": "acknowledge",
+          "patterns": ["I have payed the price , please acknowledge","The money has been payed","Could you make sure whether the money is recieved or not?"],
+          "responses": ["Yeah,the money is payed successfully.Thankyou for ","Don't worry the money is sucessfully been recieved","Yeah,recieved the amount"]
+         }
+    
+]
+}
