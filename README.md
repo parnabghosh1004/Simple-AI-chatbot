@@ -1,6 +1,6 @@
 This chatbot is made with neural netoworks and a using a bit of natural language processing.
 
-Training data is conatined in the file intents.json and it is highly customizable.
+Training data is contained inside the file intents.json and it is highly customizable.
 
 In my project i used the context of restuarant bot serving to a customer.
 
