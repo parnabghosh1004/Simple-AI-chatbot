@@ -4,4 +4,4 @@ Training data is contained inside the file intents.json and it is highly customi
 
 In my project i used the context of restuarant bot serving to a customer.
 
-A user friendly GUI using Tkinter is also included for better experience of the customer.
+A user friendly GUI using Tkinter is also included for better experience of the user.
